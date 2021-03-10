@@ -98,3 +98,10 @@ Then use `file.txt.gpg` in paperify.
 Peperify is licensed in GPL-3.0
 
 Read more in [LICESE](LICENSE)
+
+
+On ubuntu and on Mint
+```
+sudo apt-get install python-zbar libzbar-dev python-qrtools
+pip install libzbar-cffi==0.2.1
+```
